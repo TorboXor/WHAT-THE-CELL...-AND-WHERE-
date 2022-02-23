@@ -67,6 +67,11 @@ mkdir -p data/data_preprocessed/mask_cluster/masks_cs
 mkdir -p data/data_preprocessed/sliced_images/masks_cg
 mkdir -p data/data_preprocessed/sliced_images/masks_cs
 ```
+
+**Additional notes**
+* All notebooks are tested on MacBook Air M1 chip
+* All notebooks work with train.csv and train directory from the kaggle dataset. Copy both in data_original
+
 ### 2. Running order for notebooks
 
 In order to run all scripts flawlessly, it is mandatory to run the notebooks in the right order. Please use the notebook and directory labels as reference to find out what to do and in which order.
@@ -88,6 +93,3 @@ Here, we summarize the content of all paths.
 
 
 
-* All notebooks are tested on MacBook Air M1 chip
-* load data from kaggle
-* copy only train directory and train.csv in data_original
