@@ -1,11 +1,19 @@
 # WHAT-THE-CELL...-AND-WHERE-
 Manually counting cells in microscopy samples, e.g., to test the efficacy of cancer drugs to selectively inhibit the growth of cancer cells, is a tedious and time-consuming effort. Here, we automated this process using deep learning algorithms to identify the location and size of cellular mass.
 
-More specifically, we use U-Net models for semantic segmentation of nervous tissue cell bodies in light microscope images. The data set is from the kaggle challenge which can be found here:
+More specifically, we use U-Net models for semantic segmentation of nervous tissue cell bodies in light microscope images. The data set we use to train and test our models is from a kaggle challenge and can be found here:
 
 https://www.kaggle.com/c/sartorius-cell-instance-segmentation
 
-Although the data set provided by sartorius, we do not follow the instructions in the challenge. a semantic segmentation
+The dataset contains pure (i.e. no mixtures of cell types) cell culture images of three cell types which can all be found in human brains: 
+
+* shsy5y: This is the neuroblastoma cell line
+* cort: neurons which should be unaffected by cancer drugs
+* astrocytes: glial cells that help neurons to electrically shield themselves from other neurons and therefore, should also not be targeted by drugs.
+
+Just to avoid confusion: Although the data set provided by the kaggle challenge (here, the evaluation metric is the mean average IoU since instance segmentation is the task), we decided to focus on semantic segmentation since analyzing the cell body area is expedient for testing drug efficacy. Hence, we use IoU (intersection of union) for just two pixel classes: cell type and none-cell type.
+
+While optimizing our models, we noticed that the astrocyte segmentation masks provided by the dataset in form of running length annotations have a remarkable deviation from the actual cell bodies. To deal with this issue we implemented notebooks that create segmentation masks that can be used alternatively to train and test the model.
 
 **Please go through the whole set up in the exact order as follows**
 
