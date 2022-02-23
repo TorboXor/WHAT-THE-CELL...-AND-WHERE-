@@ -1,8 +1,10 @@
 # WHAT-THE-CELL...-AND-WHERE-
 Manually counting cells in microscopy samples, e.g., to test the efficacy of cancer drugs to selectively inhibit the growth of cancer cells, is a tedious and time-consuming effort. Here, we automated this process using deep learning algorithms to identify the location and size of cellular mass.
 
+**Please go through the whole set up in the exact order as follows**
 
-## Environment
+
+## 1. Set up of the Environment
 Make sure you have the latest version of macOS (currently Monterey) installed.
 Also make sure that xcode is installed and updated: 
 
@@ -51,7 +53,14 @@ mkdir -p data/data_preprocessed/mask_cluster/masks_cs
 mkdir -p data/data_preprocessed/sliced_images/masks_cg
 mkdir -p data/data_preprocessed/sliced_images/masks_cs
 ```
-### Set up
+### 2. Running order for notebooks
+
+In order to run all scripts flawlessly, it is mandatory to run the notebooks in the right order. Please use the notebook and directory labels as reference.
+
+Here, we summarize the content of all paths.
+
+
+
 * All notebooks are tested on MacBook Air M1 chip
 * load data from kaggle
 * copy only train directory and train.csv in data_original
