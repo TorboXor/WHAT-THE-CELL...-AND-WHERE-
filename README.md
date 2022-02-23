@@ -88,6 +88,7 @@ Here, we summarize the content of all paths.
 * 02: Defining data pipeline functions for U-Nets: choosing masks, creating train-test-splits, data augmentation
 * 03: Model training with different U-Net model options: from Scratch and semi-pretrained using VGG16 and MobileNetV2 for the down convolution path.
 * 04: Evaluation of models including IoU analysis
+* 05: Visualization of model results
 
 **EDA**
 
