@@ -11,3 +11,4 @@ opencv-python
 opencv-contrib-python
 seaborn
 scikit-image
+segmentation_models
