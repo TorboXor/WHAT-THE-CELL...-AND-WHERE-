@@ -1,0 +1,9 @@
+jupyterlab
+matplotlib
+Pillow
+numpy
+scipy
+tensorflow-hub
+pandas
+scikit-learn
+imageio
