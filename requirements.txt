@@ -7,3 +7,7 @@ tensorflow-hub
 pandas
 scikit-learn
 imageio
+opencv-python
+opencv-contrib-python
+seaborn
+scikit-image
