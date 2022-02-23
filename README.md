@@ -44,7 +44,8 @@ mkdir -p data/data_preprocessed/mask_predicted/masks
 mkdir -p data/data_preprocessed/mask_predicted/intersections
 mkdir -p data/data_preprocessed/mask_predicted/unions
 
-mkdir -p data/data_preprocessed/mask_cluster/before_preprocessing
+mkdir -p data/data_preprocessed/mask_cluster/before_preprocessing/segmented_img
+mkdir -p data/data_preprocessed/mask_cluster/before_preprocessing/segmented_img_sift
 mkdir -p data/data_preprocessed/mask_cluster/masks_cg
 mkdir -p data/data_preprocessed/mask_cluster/masks_cs
 mkdir -p data/data_preprocessed/sliced_images/masks_cg
