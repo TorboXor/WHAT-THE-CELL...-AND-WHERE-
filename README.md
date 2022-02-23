@@ -74,7 +74,7 @@ In order to run all scripts flawlessly, it is mandatory to run the notebooks in 
 Here, we summarize the content of all paths.
 
 **RUN_ONCE_PREPROCESSING:** The notebooks have to be executed at first. They do the following:
-* 01: Creates segmentation masks with Kmeans clustering (alternative masks to train our U-Net models)
+* 01: Creates segmentation masks with Kmeans clustering the pixel values (alternative masks to train our U-Net models)
 * 02: Creates segmentation masks by the help of SIFT keypoints (alternative masks to train our U-Net models)
 * 03: Creates masks from running length annotations delivered by Sartorius Kaggle data set. Slices images and masks from 01 to 03 into four quadrants.
 
