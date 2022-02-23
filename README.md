@@ -51,6 +51,6 @@ mkdir -p data/data_preprocessed/sliced_images/masks_cg
 mkdir -p data/data_preprocessed/sliced_images/masks_cs
 ```
 ### Set up
-
+* All notebooks are tested on MacBook Air M1 chip
 * load data from kaggle
 * copy only train directory and train.csv in data_original
