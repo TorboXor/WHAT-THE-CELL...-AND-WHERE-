@@ -1,6 +1,12 @@
 # WHAT-THE-CELL...-AND-WHERE-
 Manually counting cells in microscopy samples, e.g., to test the efficacy of cancer drugs to selectively inhibit the growth of cancer cells, is a tedious and time-consuming effort. Here, we automated this process using deep learning algorithms to identify the location and size of cellular mass.
 
+More specifically, we use U-Net models for semantic segmentation of nervous tissue cell bodies in light microscope images. The data set is from the kaggle challenge which can be found here:
+
+https://www.kaggle.com/c/sartorius-cell-instance-segmentation
+
+Although the data set provided by sartorius, we do not follow the instructions in the challenge. a semantic segmentation
+
 **Please go through the whole set up in the exact order as follows**
 
 
@@ -65,9 +71,9 @@ Here, we summarize the content of all paths.
 * 03: Creates masks from running length annotations delivered by Sartorius Kaggle data set. Slices images and masks from 01 to 03 into four quadrants.
 
 **U-NET**
-* 01: define U-Net architures
-* 02: Defining data pipeline functions for U-Net: choosing masks, creating train-test-splits, data augmentation
-* 03: Model training with different U-Net model options
+* 01: Define U-Net architures
+* 02: Defining data pipeline functions for U-Nets: choosing masks, creating train-test-splits, data augmentation
+* 03: Model training with different U-Net model options: from Scratch and semi-pretrained using VGG16 and MobileNetV2 for the down convolution path.
 * 04: Evaluation of models including IoU analysis
 
 **EDA**
