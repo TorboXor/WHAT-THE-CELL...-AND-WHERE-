@@ -50,3 +50,7 @@ mkdir -p data/data_preprocessed/mask_cluster/masks_cs
 mkdir -p data/data_preprocessed/sliced_images/masks_cg
 mkdir -p data/data_preprocessed/sliced_images/masks_cs
 ```
+###
+
+* load data from kaggle
+* copy only train directory and train.csv in data_original
