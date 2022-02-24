@@ -72,7 +72,7 @@ mkdir -p data/data_preprocessed/sliced_images/masks_cs
 * All notebooks are tested on MacBook Air M1 chip
 * All notebooks work with train.csv and train directory from the kaggle dataset. Copy both in data_original
 
-### 2. Running order for notebooks
+## 2. Running order for notebooks
 
 In order to run all scripts flawlessly, it is mandatory to run the notebooks in the right order. Please use the notebook and directory labels as reference to find out what to do and in which order.
 
