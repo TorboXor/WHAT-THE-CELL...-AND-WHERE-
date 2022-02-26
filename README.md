@@ -96,8 +96,8 @@ Here, we summarize the content of all paths.
 * 06: Advanced visualizations for presentation
 
 **EDA**
-* 01: cell type specific data analysis inclduing grayscale, segmentation areas ect. pp.
-* 02: xxx
+* 01: cell type specific explorative data analysis inclduing grayscale, segmentation areas ect. pp.
+* 02: figures generated from EDA notebook 01
 * 03: EDA using feature extraction tool SIFT (please check license markdown)
 
 
