@@ -89,8 +89,11 @@ Here, we summarize the content of all paths.
 * 03: Model training with different U-Net model options: from Scratch and semi-pretrained using VGG16 and MobileNetV2 for the down convolution path.
 * 04: Evaluation of models including IoU analysis
 * 05: Visualization of model results
+* 06: Advanced visualizations for presentation
 
 **EDA**
-
+* 01: cell type specific data analysis inclduing grayscale, segmentation areas ect. pp.
+* 02: xxx
+* 03: EDA using feature extraction tool SIFT (please check license markdown)
 
 
