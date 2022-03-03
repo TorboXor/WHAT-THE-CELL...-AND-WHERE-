@@ -1,0 +1,14 @@
+jupyterlab==3.2.9
+matplotlib==3.5.1
+Pillow==9.0.1
+numpy==1.22.2
+scipy==1.8.0
+tensorflow-hub==0.12.0
+pandas==1.4.1
+scikit-learn==1.0.2
+imageio==2.16.0
+opencv-python==4.5.5.62
+opencv-contrib-python==4.5.5.62
+seaborn==0.11.2
+scikit-image==0.19.2
+segmentation-models==1.0.1

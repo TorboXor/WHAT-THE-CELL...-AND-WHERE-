@@ -15,7 +15,7 @@ The dataset contains pure (i.e. no mixtures of cell types) cell culture images o
 * cort: neurons which should be unaffected by cancer drugs
 * astrocytes: glial cells that help neurons to electrically shield themselves from other neurons and therefore, should also not be targeted by drugs.
 
-Just to avoid confusion: Although the data set is provided by the kaggle challenge (here, the evaluation metric is the mean average IoU since instance segmentation is the task), we decided to focus on semantic segmentation since analyzing the cell body area is expedient for testing drug efficacy. Hence, we use IoU (intersection of union) for just two pixel classes: cell type and none-cell type.
+**Just to avoid confusion:** Although the data set is provided by the kaggle challenge (here, the evaluation metric is the mean average IoU since instance segmentation is the task), we decided to focus on semantic segmentation since analyzing the cell body area is expedient for testing drug efficacy. Hence, we use IoU (intersection of union) for just two pixel classes: cell type and none-cell type.
 
 We analyzed that the astrocyte segmentation masks provided by the dataset in form of running length annotations have a remarkable deviation from the actual cell bodies. To deal with this issue we implemented notebooks that create segmentation masks that can be used alternatively to train and test our models.
 
@@ -50,6 +50,7 @@ pip install tensorflow-metal
 pip install -r requirements.txt
 pip install git+https://github.com/tensorflow/examples.git
 ```
+**Note:** `requirements_versions.txt` contains the version numbers of all libraries contained in the requirements file in case installation of the latest versions (as is done by using `requirements.txt`) causes any troubles.
 
 ### Execute the following code in the shell in the main directory of this notebook to create the necessary data subfolders
 
