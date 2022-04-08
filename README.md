@@ -2,7 +2,7 @@
 
 In this repository you will find the content of our capstone project "What the cell... and Where" as part of our Data Science Bootcamp of *neuefische GmBH*.
 
-### What is this repository about:
+### What this repository is about:
 Manually counting cells in microscopy samples, e.g., to test the efficacy of cancer drugs to selectively inhibit the growth of cancer cells, is a tedious and time-consuming effort. Here, we automated this process using deep learning algorithms to identify the location and size of cellular mass.
 
 More specifically, we use U-Net models for semantic segmentation of nervous tissue cell bodies in light microscope images. The data set we use to train and test our models is from a kaggle challenge and can be found here:
